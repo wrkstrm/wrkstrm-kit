@@ -28,9 +28,7 @@ extension PackageDescription.Package.Dependency {
   static var local: [PackageDescription.Package.Dependency] {
     [
       .package(path: "../../universal/domain/system/wrkstrm-foundation"),
-      .package(
-        path: "../../../../../swift-universal/public/spm/universal/domain/system/common-log"
-      ),
+      .package(path: "../../../../../swift-universal/public/spm/universal/domain/system/common-log"),
       .package(path: "../../universal/domain/system/wrkstrm-main"),
     ]
   }
